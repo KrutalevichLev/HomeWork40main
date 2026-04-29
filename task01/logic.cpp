@@ -1,6 +1,9 @@
 #include "logic.h"
 
-string find_fibonachi_number(int number) {
+string find_fibonachi_number(int number){
+	if (number < 0) {
+		return "Error";
+	}
 	string msg = "0 1 ";
 
 	int a = 0;

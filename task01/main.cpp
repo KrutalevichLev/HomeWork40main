@@ -1,6 +1,7 @@
 #include "logic.h"
 
 int main() {
+	cout << "Enter index of fibonachi number: ";
 	int number;
 
 	cin >> number;
